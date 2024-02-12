@@ -6,7 +6,7 @@
 h1 {
 	position: relative;
 	color: #426ab3;
-	font-size: 40px;
+	font-size: 30pt;
 	padding: 10px 0;
 	text-align: center;
 	margin: 1.5em 0;
@@ -37,9 +37,27 @@ h2 {
 	color: #545454;
 }
 
+h3 {
+	border-bottom: solid 3px #cce4ff;
+	position: relative;
+	font-size: 18pt;
+	margin-left: 0.2em;
+	margin-right: 0.4em;
+}
+
+h3:after {
+	position: absolute;
+	content: "";
+	display: block;
+	border-bottom: solid 3px #5472cd;
+	bottom: -3px;
+	width: 20%;
+}
+
 ul {
 	padding: 0;
-	margin-left: 1em;
+	margin-left: 0.5em;
+	margin-right: 1em;
 }
 
 ul li {
@@ -54,9 +72,46 @@ ul li {
 	font-weight: bold;
 }
 
+a {
+	font-size: 14pt;
+}
+
+p {
+	margin-left: 1em;
+	margin-right: 2em;
+}
+
+div {
+	text-align: center;
+}
+
+#intro {
+	text-align: center;
+	font-weight: bold;
+}
+
+.btn-square {
+	display: inline-block;
+	margin: 20px;
+	padding: 0.5em 1em;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 16pt;
+	background: lightskyblue;
+	color: black;
+	border-bottom: solid 4px midnightblue;
+	border-radius: 3px;
+}
+
+.btn-square:active {
+	-webkit-transform: translateY(4px);
+	transform: translateY(4px);
+	border-bottom: none;
+}
+
 @media only screen and (max-width: 600px) {
 	h1 {
-		font-size: 30px;
+		font-size: 24pt;
 	}
 
 	h1:before {
@@ -65,7 +120,11 @@ ul li {
 	}
 
 	h2 {
-		font-size: 20px;
+		font-size: 16pt;
+	}
+
+	h3 {
+		font-size: 14pt;
 	}
 
 	ul {
@@ -73,5 +132,23 @@ ul li {
 
 	ul li {
 		font-size: 10pt;
+	}
+
+	a {
+		font-size: 12pt;
+	}
+
+	p {
+		font-size: 10pt;
+	}
+
+	div {
+	}
+
+	#intro {
+	}
+
+	.btn-square {
+		font-size: 12pt;
 	}
 }
