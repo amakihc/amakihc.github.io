@@ -39,11 +39,12 @@ h2 {
 
 ul {
 	padding: 0;
+	margin-left: 1em;
 }
 
 ul li {
 	color: #404040;
-	border-left: solid 10px deepskyblue;
+	border-left: solid 10px midnightblue;
 	border-bottom: solid 2px #dadada;
 	background: whitesmoke;
 	margin-bottom: 5px;
@@ -69,6 +70,7 @@ ul li {
 
 	ul {
 		padding: 0;
+		margin-left: 1em;
 	}
 
 	ul li {
