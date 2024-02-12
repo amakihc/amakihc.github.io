@@ -16,7 +16,7 @@ h1 {
 h1:before {
 	content: "";
 	position: absolute;
-	top: -13px;
+	top: -16px;
 	left: 50%;
 	width: 175px;
 	height: 100px;
@@ -29,11 +29,28 @@ h1:before {
 }
 
 h2 {
+	font-size: 20pt;
 	position: relative;
 	padding: 0.1em 0.5em;
 	background: -webkit-linear-gradient(to right, lightblue, transparent);
 	background: linear-gradient(to right, lightblue, transparent);
 	color: #545454;
+}
+
+ul {
+	padding: 0;
+}
+
+ul li {
+	color: #404040;
+	border-left: solid 10px deepskyblue;
+	border-bottom: solid 2px #dadada;
+	background: whitesmoke;
+	margin-bottom: 5px;
+	line-height: 1.5;
+	padding: 0.5em;
+	list-style-type: none!important;
+	font-weight: bold;
 }
 
 @media only screen and (max-width: 600px) {
