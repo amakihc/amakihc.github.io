@@ -54,10 +54,6 @@ ul li {
 }
 
 @media only screen and (max-width: 600px) {
-/*	* {
-		font-family: sans-serif;
-	}*/
-
 	h1 {
 		font-size: 30px;
 	}
@@ -69,5 +65,21 @@ ul li {
 
 	h2 {
 		font-size: 20px;
+	}
+
+	ul {
+		padding: 0;
+	}
+
+	ul li {
+		color: #404040;
+		border-left: solid 10px deepskyblue;
+		border-bottom: solid 2px #dadada;
+		background: whitesmoke;
+		margin-bottom: 5px;
+		line-height: 1.5;
+		padding: 0.5em;
+		list-style-type: none!important;
+		font-weight: bold;
 	}
 }
