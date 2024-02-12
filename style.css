@@ -32,8 +32,8 @@ h2 {
 	font-size: 20pt;
 	position: relative;
 	padding: 0.1em 0.5em;
-	background: -webkit-linear-gradient(to right, lightblue, transparent);
-	background: linear-gradient(to right, lightblue, transparent);
+	background: -webkit-linear-gradient(to right, lightskyblue, transparent);
+	background: linear-gradient(to right, lightskyblue, transparent);
 	color: #545454;
 }
 
@@ -44,12 +44,12 @@ ul {
 
 ul li {
 	color: #404040;
-	border-left: solid 10px midnightblue;
+	border-left: solid 10px lightskyblue;
 	border-bottom: solid 2px #dadada;
 	background: whitesmoke;
 	margin-bottom: 5px;
 	line-height: 1.5;
-	padding: 0.5em;
+	padding: 0.8em;
 	list-style-type: none!important;
 	font-weight: bold;
 }
@@ -69,19 +69,9 @@ ul li {
 	}
 
 	ul {
-		padding: 0;
-		margin-left: 1em;
 	}
 
 	ul li {
-		color: #404040;
-		border-left: solid 10px deepskyblue;
-		border-bottom: solid 2px #dadada;
-		background: whitesmoke;
-		margin-bottom: 5px;
-		line-height: 1.5;
-		padding: 0.5em;
-		list-style-type: none!important;
-		font-weight: bold;
+		font-size: 10pt;
 	}
 }
