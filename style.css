@@ -46,7 +46,8 @@ h2 {
 	}
 
 	h1:before {
-		top: -20px;
+		top: -12px;
+		height: 80px;
 	}
 
 	h2 {
