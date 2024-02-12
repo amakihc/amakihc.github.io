@@ -1,0 +1,35 @@
+
+* {
+	font-family: "Noto Sans CJK JP";
+}
+
+h1 {
+	position: relative;
+	color: #426ab3;
+	font-size: 40px;
+	padding: 10px 0;
+	text-align: center;
+	margin: 1.5em 0;
+}
+
+h1:before {
+	content: "";
+	position: absolute;
+	top: -13px;
+	left: 50%;
+	width: 175px;
+	height: 100px;
+	border-radius: 50%;
+	border: 5px solid #73c2fb;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+h2 {
+	position: relative;
+	padding: 0.1em 0.5em;
+	background: -webkit-linear-gradient(to right, rgb(175, 223, 228), transparent);
+	background: linear-gradient(to right, rgb(175, 223, 228), transparent);
+}
