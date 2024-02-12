@@ -1,6 +1,6 @@
 
 * {
-	font-family: "Yu Gothic";
+	font-family: "Yu Gothic", San Francisco;
 }
 
 h1 {
@@ -31,6 +31,17 @@ h1:before {
 h2 {
 	position: relative;
 	padding: 0.1em 0.5em;
-	background: -webkit-linear-gradient(to right, rgb(175, 223, 228), transparent);
-	background: linear-gradient(to right, rgb(175, 223, 228), transparent);
+	background: -webkit-linear-gradient(to right, lightblue, transparent);
+	background: linear-gradient(to right, lightblue, transparent);
+	color: #545454;
+}
+
+@media only screen and (max-width: 600px) {
+	h1 {
+		font-size: 30px;
+	}
+
+	h2 {
+		font-size: 12px;
+	}
 }
