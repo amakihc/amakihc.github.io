@@ -76,6 +76,10 @@ a {
 	font-size: 14pt;
 }
 
+a.title {
+	text-decoration: none;
+}
+
 p {
 	margin-left: 1em;
 	margin-right: 2em;
@@ -83,11 +87,6 @@ p {
 
 div {
 	text-align: center;
-}
-
-#intro {
-	text-align: center;
-	font-weight: bold;
 }
 
 .btn-square {
@@ -145,7 +144,7 @@ div {
 	div {
 	}
 
-	#intro {
+	img {
 	}
 
 	.btn-square {
