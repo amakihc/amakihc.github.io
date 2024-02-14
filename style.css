@@ -75,6 +75,7 @@ ul li {
 	padding: 0.8em;
 	list-style-type: none!important;
 	font-weight: bold;
+	text-align: justify;
 }
 
 a {
@@ -88,6 +89,7 @@ a.title {
 p {
 	margin-left: 1em;
 	margin-right: 2em;
+	text-align: justify;
 }
 
 div {
