@@ -3,6 +3,10 @@
 	font-family: sans-serif;
 }
 
+body {
+	margin-bottom: 10em;
+}
+
 h1 {
 	position: relative;
 	color: #426ab3;
@@ -31,6 +35,7 @@ h1:before {
 h2 {
 	font-size: 20pt;
 	position: relative;
+	margin-bottom: 0;
 	padding: 0.1em 0.5em;
 	background: -webkit-linear-gradient(to right, lightskyblue, transparent);
 	background: linear-gradient(to right, lightskyblue, transparent);
@@ -87,6 +92,10 @@ p {
 
 div {
 	text-align: center;
+}
+
+img {
+	width: 500px;
 }
 
 .btn-square {
@@ -148,6 +157,7 @@ div {
 	}
 
 	img {
+		width: 80%;
 	}
 
 	.btn-square {
